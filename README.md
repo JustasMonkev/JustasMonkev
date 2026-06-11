@@ -39,7 +39,7 @@ Merged pull requests in some of the biggest testing & tooling projects:
 
 ## 🚀 Featured Projects
 
-- **[mcp-accessibility-scanner](https://github.com/JustasMonkev/mcp-accessibility-scanner)** ⭐ — MCP server that lets AI assistants run WCAG accessibility audits on any webpage using Playwright and axe-core. ~50k downloads/month on npm.
+- **[mcp-accessibility-scanner](https://github.com/JustasMonkev/mcp-accessibility-scanner)** ⭐ — MCP server that lets AI assistants run WCAG accessibility audits on any webpage using Playwright and axe-core. My most popular package on npm.
 - **[appium-session-recorder](https://github.com/JustasMonkev/appium-session-recorder)** — Record and replay Appium mobile testing sessions interactively.
 - **[jm-wdio-failed-rerun-runner](https://github.com/JustasMonkev/jm-wdio-failed-rerun-runner)** — WebdriverIO helper that reruns only the tests that failed in the initial run.
 - **[i18n-string-check](https://github.com/JustasMonkev/i18n-string-check)** — Go-powered CI tool that catches hardcoded strings in TypeScript/JavaScript codebases.
