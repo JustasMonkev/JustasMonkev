@@ -31,6 +31,7 @@ Merged pull requests in some of the biggest testing & tooling projects:
 | [mcp-accessibility-scanner](https://www.npmjs.com/package/mcp-accessibility-scanner) | ![npm](https://img.shields.io/npm/dm/mcp-accessibility-scanner) | MCP server for automated accessibility scans with Playwright + axe-core |
 | [appium-session-recorder](https://www.npmjs.com/package/appium-session-recorder) | ![npm](https://img.shields.io/npm/dm/appium-session-recorder) | Interactive Appium session recorder with a modern UI |
 | [jm-playwright-args](https://www.npmjs.com/package/jm-playwright-args) | ![npm](https://img.shields.io/npm/dm/jm-playwright-args) | Pass custom CLI arguments into Playwright config and tests |
+| [jm-wdio-failed-rerun-runner](https://www.npmjs.com/package/jm-wdio-failed-rerun-runner) | ![npm](https://img.shields.io/npm/dm/jm-wdio-failed-rerun-runner) | WebdriverIO runner that reruns only the tests that failed in the initial run |
 | [jm-wdio-mocha-split-runner](https://www.npmjs.com/package/jm-wdio-mocha-split-runner) | ![npm](https://img.shields.io/npm/dm/jm-wdio-mocha-split-runner) | Experimental intra-spec parallel launcher for WebdriverIO |
 | [i18n-string-check](https://www.npmjs.com/package/i18n-string-check) | ![npm](https://img.shields.io/npm/dm/i18n-string-check) | Fast CI checker for hardcoded i18n strings (written in Go) |
 | [jm-playwright-chrome-ui](https://www.npmjs.com/package/jm-playwright-chrome-ui) | ![npm](https://img.shields.io/npm/dm/jm-playwright-chrome-ui) | Chrome extension UI helpers for Playwright |
@@ -41,7 +42,7 @@ Merged pull requests in some of the biggest testing & tooling projects:
 
 - **[mcp-accessibility-scanner](https://github.com/JustasMonkev/mcp-accessibility-scanner)** ⭐ — MCP server that lets AI assistants run WCAG accessibility audits on any webpage using Playwright and axe-core. My most popular package on npm.
 - **[appium-session-recorder](https://github.com/JustasMonkev/appium-session-recorder)** — Record and replay Appium mobile testing sessions interactively.
-- **[jm-wdio-failed-rerun-runner](https://github.com/JustasMonkev/jm-wdio-failed-rerun-runner)** — WebdriverIO helper that reruns only the tests that failed in the initial run.
+- **[jm-wdio-failed-rerun-runner](https://github.com/JustasMonkev/jm-wdio-failed-rerun-runner)** ([npm](https://www.npmjs.com/package/jm-wdio-failed-rerun-runner)) — WebdriverIO runner that reruns only the tests that failed in the initial run, instead of re-executing whole spec files.
 - **[i18n-string-check](https://github.com/JustasMonkev/i18n-string-check)** — Go-powered CI tool that catches hardcoded strings in TypeScript/JavaScript codebases.
 
 ---
