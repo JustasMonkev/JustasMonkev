@@ -1,6 +1,6 @@
 # Hi, I'm Justas 👋
 
-I build **test automation and developer tooling** — and I like fixing the tools everyone else relies on. You'll find my merged PRs in Playwright, Selenium, WebdriverIO, Vitest, axe-core and other major testing projects, plus my own packages on npm.
+I build **test automation, developer tooling, and AI agent skills** — and I like fixing the tools everyone else relies on. You'll find my merged PRs in Playwright, Selenium, WebdriverIO, Vitest, axe-core and other major testing projects, plus my own packages on npm and skills for AI coding agents.
 
 ---
 
@@ -24,6 +24,22 @@ Merged pull requests in some of the biggest testing & tooling projects:
 
 ---
 
+## 🤖 AI Skills & Agent Tooling
+
+Skills and tools I've built for AI coding agents (Claude, MCP-compatible assistants):
+
+| Project | What it does |
+|---|---|
+| [flaky-test-scorer-ai-skill](https://github.com/JustasMonkev/flaky-test-scorer-ai-skill) | AI agent skill that scores and ranks flaky tests from CI pass/fail history, using version-aware entropy and flip-rate models (inspired by Apple's ICSE-SEIP 2020 flaky-test ranking paper) |
+| [worked-example-teaching](https://github.com/JustasMonkev/worked-example-teaching) | Claude skill that teaches one technical concept end-to-end by grounding the explanation in your actual artifact (command, file, error, or config) and walking through a single complete worked example |
+| [ai-reachability-snapshot](https://github.com/JustasMonkev/ai-reachability-snapshot) | Augments Playwright accessibility snapshots with reachability metadata so AI/MCP agents know which elements are *actually* interactable (`reachableSnapshot()`) — filters off-screen, covered, and hidden nodes |
+| [mcp-accessibility-scanner](https://github.com/JustasMonkev/mcp-accessibility-scanner) | MCP server that lets AI assistants run WCAG accessibility audits on any page with Playwright + axe-core |
+| [skills_setup](https://github.com/JustasMonkev/skills_setup) | Versioned export of my installed agent skills, split by tool (Claude & Codex) |
+
+Plus a merged [Appium troubleshooting skill](https://github.com/appium/skills/pull/13) in [appium/skills](https://github.com/appium/skills).
+
+---
+
 ## 📦 npm Packages
 
 | Package | Downloads | About |
@@ -34,6 +50,8 @@ Merged pull requests in some of the biggest testing & tooling projects:
 | [jm-wdio-failed-rerun-runner](https://www.npmjs.com/package/jm-wdio-failed-rerun-runner) | ![npm](https://img.shields.io/npm/dm/jm-wdio-failed-rerun-runner) | WebdriverIO runner that reruns only the tests that failed in the initial run |
 | [jm-wdio-mocha-split-runner](https://www.npmjs.com/package/jm-wdio-mocha-split-runner) | ![npm](https://img.shields.io/npm/dm/jm-wdio-mocha-split-runner) | Experimental intra-spec parallel launcher for WebdriverIO |
 | [i18n-string-check](https://www.npmjs.com/package/i18n-string-check) | ![npm](https://img.shields.io/npm/dm/i18n-string-check) | Fast CI checker for hardcoded i18n strings (written in Go) |
+| [npx-vet](https://www.npmjs.com/package/npx-vet) | ![npm](https://img.shields.io/npm/dm/npx-vet) | Inspect an npm package's trust evidence before `npm exec`/`npx` runs it |
+| [@justasmonkev/pkg-rust](https://www.npmjs.com/package/@justasmonkev/pkg-rust) | ![npm](https://img.shields.io/npm/dm/@justasmonkev/pkg-rust) | Rust port of `pkg` — bundle a Node.js project into a single executable |
 | [jm-playwright-chrome-ui](https://www.npmjs.com/package/jm-playwright-chrome-ui) | ![npm](https://img.shields.io/npm/dm/jm-playwright-chrome-ui) | Chrome extension UI helpers for Playwright |
 
 ---
@@ -41,8 +59,9 @@ Merged pull requests in some of the biggest testing & tooling projects:
 ## 🚀 Featured Projects
 
 - **[mcp-accessibility-scanner](https://github.com/JustasMonkev/mcp-accessibility-scanner)** ⭐ — MCP server that lets AI assistants run WCAG accessibility audits on any webpage using Playwright and axe-core. My most popular package on npm.
+- **[npx-vet](https://github.com/JustasMonkev/npx-vet)** ([npm](https://www.npmjs.com/package/npx-vet)) — Vets an npm package's trust signals (provenance, signatures, maintainer & version history, download stats) before `npm exec`/`npx` runs it, and blocks high-risk packages unless explicitly overridden.
+- **[@justasmonkev/pkg-rust](https://github.com/JustasMonkev/pkg-rust-port)** ([npm](https://www.npmjs.com/package/@justasmonkev/pkg-rust)) — A Rust port of `pkg` that compiles a Node.js project into a single self-contained executable, shipped with prebuilt macOS x64/arm64 native binaries.
 - **[appium-session-recorder](https://github.com/JustasMonkev/appium-session-recorder)** — Record and replay Appium mobile testing sessions interactively.
-- **[jm-wdio-failed-rerun-runner](https://github.com/JustasMonkev/jm-wdio-failed-rerun-runner)** ([npm](https://www.npmjs.com/package/jm-wdio-failed-rerun-runner)) — WebdriverIO runner that reruns only the tests that failed in the initial run, instead of re-executing whole spec files.
 - **[i18n-string-check](https://github.com/JustasMonkev/i18n-string-check)** — Go-powered CI tool that catches hardcoded strings in TypeScript/JavaScript codebases.
 
 ---
@@ -53,6 +72,7 @@ Merged pull requests in some of the biggest testing & tooling projects:
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 
