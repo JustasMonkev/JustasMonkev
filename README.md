@@ -31,6 +31,7 @@ Skills and tools I've built for AI coding agents (Claude, MCP-compatible assista
 | Project | What it does |
 |---|---|
 | [flaky-test-scorer-ai-skill](https://github.com/JustasMonkev/flaky-test-scorer-ai-skill) | AI agent skill that scores and ranks flaky tests from CI pass/fail history, using version-aware entropy and flip-rate models (inspired by Apple's ICSE-SEIP 2020 flaky-test ranking paper) |
+| [worked-example-teaching](https://github.com/JustasMonkev/worked-example-teaching) | Claude skill that teaches one technical concept end-to-end by grounding the explanation in your actual artifact (command, file, error, or config) and walking through a single complete worked example |
 | [ai-reachability-snapshot](https://github.com/JustasMonkev/ai-reachability-snapshot) | Augments Playwright accessibility snapshots with reachability metadata so AI/MCP agents know which elements are *actually* interactable (`reachableSnapshot()`) — filters off-screen, covered, and hidden nodes |
 | [mcp-accessibility-scanner](https://github.com/JustasMonkev/mcp-accessibility-scanner) | MCP server that lets AI assistants run WCAG accessibility audits on any page with Playwright + axe-core |
 | [skills_setup](https://github.com/JustasMonkev/skills_setup) | Versioned export of my installed agent skills, split by tool (Claude & Codex) |
