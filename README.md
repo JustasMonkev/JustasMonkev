@@ -11,6 +11,7 @@ Merged pull requests in some of the biggest testing & tooling projects:
 | Project | Contribution |
 |---|---|
 | [microsoft/playwright](https://github.com/microsoft/playwright) | ✨ [`toHaveCSS` pseudo-element support](https://github.com/microsoft/playwright/pull/40092) · 🐛 [Windows ZIP MIME type in trace viewer](https://github.com/microsoft/playwright/pull/38629) · 🎨 [dark-mode dropdown fix in UI mode](https://github.com/microsoft/playwright/pull/34186) |
+| [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) | ✨ [YAML source location (line:col) in prompt-reference errors](https://github.com/promptfoo/promptfoo/pull/9940) |
 | [SeleniumHQ/selenium](https://github.com/SeleniumHQ/selenium) | ✨ [Relative locators from any locator, not just tag name](https://github.com/SeleniumHQ/selenium/pull/9273) |
 | [webdriverio/expect-webdriverio](https://github.com/webdriverio/expect-webdriverio) | ✨ [Soft assertions feature (`expect.soft()`)](https://github.com/webdriverio/expect-webdriverio/pull/1836) |
 | [webdriverio/webdriverio](https://github.com/webdriverio/webdriverio) | ✨ [Auto-include SoftAssertionService in the runner](https://github.com/webdriverio/webdriverio/pull/14546) |
