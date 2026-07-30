@@ -1,6 +1,6 @@
 # Hi, I'm Justas 👋
 
-I build **test automation, developer tooling, and AI agent skills** — and I like fixing the tools everyone else relies on. You'll find my merged PRs in Playwright, Selenium, WebdriverIO, Vitest, axe-core and other major testing projects, plus my own packages on npm and skills for AI coding agents.
+I build **test automation, developer tooling, and AI agent skills** — and I like fixing the tools everyone else relies on. You'll find my merged PRs in Playwright, Selenium, WebdriverIO, Vitest, axe-core, OpenAI's Codex tooling and other major projects, plus my own packages on npm and skills for AI coding agents.
 
 ---
 
@@ -11,6 +11,7 @@ Merged pull requests in some of the biggest testing & tooling projects:
 | Project | Contribution |
 |---|---|
 | [microsoft/playwright](https://github.com/microsoft/playwright) | ✨ [`toHaveCSS` pseudo-element support](https://github.com/microsoft/playwright/pull/40092) · 🐛 [Windows ZIP MIME type in trace viewer](https://github.com/microsoft/playwright/pull/38629) · 🎨 [dark-mode dropdown fix in UI mode](https://github.com/microsoft/playwright/pull/34186) |
+| [openai/codex-security](https://github.com/openai/codex-security) | 🐛 [Include the personal account in bulk-scan discovery](https://github.com/openai/codex-security/pull/65) |
 | [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) | ✨ [YAML source location (line:col) in prompt-reference errors](https://github.com/promptfoo/promptfoo/pull/9940) |
 | [SeleniumHQ/selenium](https://github.com/SeleniumHQ/selenium) | ✨ [Relative locators from any locator, not just tag name](https://github.com/SeleniumHQ/selenium/pull/9273) |
 | [webdriverio/expect-webdriverio](https://github.com/webdriverio/expect-webdriverio) | ✨ [Soft assertions feature (`expect.soft()`)](https://github.com/webdriverio/expect-webdriverio/pull/1836) |
