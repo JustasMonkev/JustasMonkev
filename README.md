@@ -1,6 +1,6 @@
 # Hi, I'm Justas 👋
 
-I build **test automation, developer tooling, and AI agent skills** — and I like fixing the tools everyone else relies on. You'll find my merged PRs in Playwright, Selenium, WebdriverIO, Vitest, axe-core, OpenAI's Codex tooling and other major projects, plus my own packages on npm and skills for AI coding agents.
+I build **test automation, developer tooling, and AI agent skills** — and I like fixing the tools everyone else relies on. You'll find my merged PRs in Playwright, Selenium, WebdriverIO, Vitest, axe-core, OpenAI's Codex tooling and other major projects, plus my own packages on npm and skills for AI coding agents. Lately I've been building tools that make flaky and slow test suites debuggable — leak bisection, semantic test selection, flaky-test ranking.
 
 ---
 
@@ -24,6 +24,8 @@ Merged pull requests in some of the biggest testing & tooling projects:
 | [appium/skills](https://github.com/appium/skills) | ✨ [Appium troubleshooting skill](https://github.com/appium/skills/pull/13) |
 | [mobile-next/mobilewright](https://github.com/mobile-next/mobilewright) | 🐛 [Don't swallow driver errors in `isVisible`](https://github.com/mobile-next/mobilewright/pull/138) |
 
+Currently in review: [`base-driver`: return 500 for timeout errors](https://github.com/appium/appium/pull/22548) and [dropping Selenium Grid 3 nodeconfig support](https://github.com/appium/appium/pull/22343) in [appium/appium](https://github.com/appium/appium).
+
 ---
 
 ## 🤖 AI Skills & Agent Tooling
@@ -36,6 +38,7 @@ Skills and tools I've built for AI coding agents (Claude, MCP-compatible assista
 | [worked-example-teaching](https://github.com/JustasMonkev/worked-example-teaching) | Claude skill that teaches one technical concept end-to-end by grounding the explanation in your actual artifact (command, file, error, or config) and walking through a single complete worked example |
 | [ai-reachability-snapshot](https://github.com/JustasMonkev/ai-reachability-snapshot) | Augments Playwright accessibility snapshots with reachability metadata so AI/MCP agents know which elements are *actually* interactable (`reachableSnapshot()`) — filters off-screen, covered, and hidden nodes |
 | [mcp-accessibility-scanner](https://github.com/JustasMonkev/mcp-accessibility-scanner) | MCP server that lets AI assistants run WCAG accessibility audits on any page with Playwright + axe-core |
+| [agent-maintenance-skills](https://github.com/JustasMonkev/agent-maintenance-skills) | Six reusable agent skills for maintenance work: doc auditing, skill grading, upstream monitoring, prior-art search, sharded security review, and verified dependency updates |
 | [skills_setup](https://github.com/JustasMonkev/skills_setup) | Versioned export of my installed agent skills, split by tool (Claude & Codex) |
 
 Plus a merged [Appium troubleshooting skill](https://github.com/appium/skills/pull/13) in [appium/skills](https://github.com/appium/skills).
@@ -48,6 +51,7 @@ Plus a merged [Appium troubleshooting skill](https://github.com/appium/skills/pu
 |---|---|---|
 | [mcp-accessibility-scanner](https://www.npmjs.com/package/mcp-accessibility-scanner) | ![npm](https://img.shields.io/npm/dm/mcp-accessibility-scanner) | MCP server for automated accessibility scans with Playwright + axe-core |
 | [appium-session-recorder](https://www.npmjs.com/package/appium-session-recorder) | ![npm](https://img.shields.io/npm/dm/appium-session-recorder) | Interactive Appium session recorder with a modern UI |
+| [playwright-leak-finder](https://www.npmjs.com/package/playwright-leak-finder) | ![npm](https://img.shields.io/npm/dm/playwright-leak-finder) | Bisects a Playwright suite to find the test that leaks state into a later failure |
 | [jm-playwright-args](https://www.npmjs.com/package/jm-playwright-args) | ![npm](https://img.shields.io/npm/dm/jm-playwright-args) | Pass custom CLI arguments into Playwright config and tests |
 | [jm-wdio-failed-rerun-runner](https://www.npmjs.com/package/jm-wdio-failed-rerun-runner) | ![npm](https://img.shields.io/npm/dm/jm-wdio-failed-rerun-runner) | WebdriverIO runner that reruns only the tests that failed in the initial run |
 | [jm-wdio-mocha-split-runner](https://www.npmjs.com/package/jm-wdio-mocha-split-runner) | ![npm](https://img.shields.io/npm/dm/jm-wdio-mocha-split-runner) | Experimental intra-spec parallel launcher for WebdriverIO |
@@ -61,6 +65,8 @@ Plus a merged [Appium troubleshooting skill](https://github.com/appium/skills/pu
 ## 🚀 Featured Projects
 
 - **[mcp-accessibility-scanner](https://github.com/JustasMonkev/mcp-accessibility-scanner)** ⭐ — MCP server that lets AI assistants run WCAG accessibility audits on any webpage using Playwright and axe-core. My most popular package on npm.
+- **[playwright-leak-finder](https://github.com/JustasMonkev/playwright-leak-finder)** ([npm](https://www.npmjs.com/package/playwright-leak-finder)) 🆕 — Your test passes alone but fails in the suite. This bisects the tests that ran before it (*à la* `git bisect`) until only the state-leaking culprit is left.
+- **[semantic-test-matcher](https://github.com/JustasMonkev/semantic-test-matcher)** — `rbt` CLI that ranks which test files are worth running for a changed source file, blending semantic and structural signals via local GGUF embeddings — no cloud service, no daemon.
 - **[npx-vet](https://github.com/JustasMonkev/npx-vet)** ([npm](https://www.npmjs.com/package/npx-vet)) — Vets an npm package's trust signals (provenance, signatures, maintainer & version history, download stats) before `npm exec`/`npx` runs it, and blocks high-risk packages unless explicitly overridden.
 - **[@justasmonkev/pkg-rust](https://github.com/JustasMonkev/pkg-rust-port)** ([npm](https://www.npmjs.com/package/@justasmonkev/pkg-rust)) — A Rust port of `pkg` that compiles a Node.js project into a single self-contained executable, shipped with prebuilt macOS x64/arm64 native binaries.
 - **[appium-session-recorder](https://github.com/JustasMonkev/appium-session-recorder)** — Record and replay Appium mobile testing sessions interactively.
