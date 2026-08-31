@@ -24,8 +24,6 @@ Merged pull requests in some of the biggest testing & tooling projects:
 | [appium/skills](https://github.com/appium/skills) | ✨ [Appium troubleshooting skill](https://github.com/appium/skills/pull/13) |
 | [mobile-next/mobilewright](https://github.com/mobile-next/mobilewright) | 🐛 [Don't swallow driver errors in `isVisible`](https://github.com/mobile-next/mobilewright/pull/138) |
 
-Currently in review in [appium/appium](https://github.com/appium/appium): [`base-driver`: return 500 for timeout errors](https://github.com/appium/appium/pull/22548), [dropping Selenium Grid 3 nodeconfig support](https://github.com/appium/appium/pull/22343), and [removing the extension autoinstall postinstall script](https://github.com/appium/appium/pull/21836).
-
 ---
 
 ## 🤖 AI Skills & Agent Tooling
