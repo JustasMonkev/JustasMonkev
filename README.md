@@ -1,6 +1,6 @@
 # Hi, I'm Justas 👋
 
-I build **test automation, developer tooling, and AI agent skills** — and I like fixing the tools everyone else relies on. You'll find my merged PRs in Playwright, Selenium, WebdriverIO, Vitest, axe-core, OpenAI's Codex tooling and other major projects, plus my own packages on npm and skills for AI coding agents. Lately I've been building tools that make flaky and slow test suites debuggable — leak bisection, semantic test selection, flaky-test ranking.
+I build **test automation, developer tooling, and AI agent skills** — and I like fixing the tools everyone else relies on. You'll find my merged PRs in Playwright, Selenium, Appium, WebdriverIO, Vitest, axe-core, OpenAI's Codex tooling and other major projects, plus my own packages on npm and skills for AI coding agents. Lately I've been building tools that make flaky and slow test suites debuggable — leak bisection, semantic test selection, flaky-test ranking.
 
 ---
 
@@ -11,10 +11,11 @@ Merged pull requests in some of the biggest testing & tooling projects:
 | Project | Contribution |
 |---|---|
 | [microsoft/playwright](https://github.com/microsoft/playwright) | ✨ [`toHaveCSS` pseudo-element support](https://github.com/microsoft/playwright/pull/40092) · 🐛 [Windows ZIP MIME type in trace viewer](https://github.com/microsoft/playwright/pull/38629) · 🎨 [dark-mode dropdown fix in UI mode](https://github.com/microsoft/playwright/pull/34186) |
+| [appium/appium](https://github.com/appium/appium) | 🐛 [Clean up sessions when clients disconnect during session creation](https://github.com/appium/appium/pull/22733) |
 | [openai/codex-security](https://github.com/openai/codex-security) | 🐛 [Include the personal account in bulk-scan discovery](https://github.com/openai/codex-security/pull/65) |
 | [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) | ✨ [YAML source location (line:col) in prompt-reference errors](https://github.com/promptfoo/promptfoo/pull/9940) |
 | [SeleniumHQ/selenium](https://github.com/SeleniumHQ/selenium) | ✨ [Relative locators from any locator, not just tag name](https://github.com/SeleniumHQ/selenium/pull/9273) |
-| [webdriverio/expect-webdriverio](https://github.com/webdriverio/expect-webdriverio) | ✨ [Soft assertions feature (`expect.soft()`)](https://github.com/webdriverio/expect-webdriverio/pull/1836) |
+| [webdriverio/expect-webdriverio](https://github.com/webdriverio/expect-webdriverio) | ✨ [Soft assertions feature (`expect.soft()`)](https://github.com/webdriverio/expect-webdriverio/pull/1836) · ✨ [`arrayContaining()` support in `toHaveText()`](https://github.com/webdriverio/expect-webdriverio/pull/2211) |
 | [webdriverio/webdriverio](https://github.com/webdriverio/webdriverio) | ✨ [Auto-include SoftAssertionService in the runner](https://github.com/webdriverio/webdriverio/pull/14546) |
 | [vitest-dev/vitest](https://github.com/vitest-dev/vitest) | 🐛 [WebDriver Classic fallback in browser mode](https://github.com/vitest-dev/vitest/pull/9373) |
 | [dequelabs/axe-core](https://github.com/dequelabs/axe-core) | 🐛 [Handle multiple `aria-errormessage` IDs](https://github.com/dequelabs/axe-core/pull/4973) |
@@ -23,6 +24,7 @@ Merged pull requests in some of the biggest testing & tooling projects:
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | ✨ [`plugins uninstall` CLI command](https://github.com/openclaw/openclaw/pull/6141) |
 | [appium/skills](https://github.com/appium/skills) | ✨ [Appium troubleshooting skill](https://github.com/appium/skills/pull/13) |
 | [mobile-next/mobilewright](https://github.com/mobile-next/mobilewright) | 🐛 [Don't swallow driver errors in `isVisible`](https://github.com/mobile-next/mobilewright/pull/138) |
+| [ddalcu/mlx-serve](https://github.com/ddalcu/mlx-serve) | ✨ [Prevent Mac sleep during active inference and model loading](https://github.com/ddalcu/mlx-serve/pull/311) |
 
 ---
 
