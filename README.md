@@ -54,7 +54,6 @@ Plus a merged [Appium troubleshooting skill](https://github.com/appium/skills/pu
 | [appium-session-recorder](https://www.npmjs.com/package/appium-session-recorder) | ![npm](https://img.shields.io/npm/dm/appium-session-recorder) | Interactive Appium session recorder with a modern UI |
 | [flaky-test-scorer](https://www.npmjs.com/package/flaky-test-scorer) | ![npm](https://img.shields.io/npm/dm/flaky-test-scorer) | Detects and ranks flaky tests from test-run history, with deterministic evidence and agent-ready JSON |
 | [playwright-leak-finder](https://www.npmjs.com/package/playwright-leak-finder) | ![npm](https://img.shields.io/npm/dm/playwright-leak-finder) | Bisects a Playwright suite to find the test that leaks state into a later failure |
-| [jm-playwright-har-test](https://www.npmjs.com/package/jm-playwright-har-test) | ![npm](https://img.shields.io/npm/dm/jm-playwright-har-test) | Record HAR files on failures or retries in Playwright Test and attach them to the report |
 | [jm-playwright-args](https://www.npmjs.com/package/jm-playwright-args) | ![npm](https://img.shields.io/npm/dm/jm-playwright-args) | Pass custom CLI arguments into Playwright config and tests |
 | [jm-wdio-failed-rerun-runner](https://www.npmjs.com/package/jm-wdio-failed-rerun-runner) | ![npm](https://img.shields.io/npm/dm/jm-wdio-failed-rerun-runner) | WebdriverIO runner that reruns only the tests that failed in the initial run |
 | [jm-wdio-mocha-split-runner](https://www.npmjs.com/package/jm-wdio-mocha-split-runner) | ![npm](https://img.shields.io/npm/dm/jm-wdio-mocha-split-runner) | Experimental intra-spec parallel launcher for WebdriverIO |
@@ -67,6 +66,7 @@ Plus a merged [Appium troubleshooting skill](https://github.com/appium/skills/pu
 
 ## 🚀 Featured Projects
 
+- **[jm-playwright-har-test](https://github.com/JustasMonkev/jm-playwright-har-test)** — Record HAR files on failures or retries in Playwright Test and attach them to the report.
 - **[Playwright Trace AI site](https://github.com/JustasMonkev/playwright-trace-ai-site)** — Documentation and landing page for a local-first CLI that diagnoses failed Playwright traces using bounded evidence and optional AI enrichment.
 - **[mcp-accessibility-scanner](https://github.com/JustasMonkev/mcp-accessibility-scanner)** ⭐ — MCP server that lets AI assistants run WCAG accessibility audits on any webpage using Playwright and axe-core. My most popular package on npm.
 - **[playwright-leak-finder](https://github.com/JustasMonkev/playwright-leak-finder)** ([npm](https://www.npmjs.com/package/playwright-leak-finder)) — Your test passes alone but fails in the suite. This bisects the tests that ran before it (*à la* `git bisect`) until only the state-leaking culprit is left.
