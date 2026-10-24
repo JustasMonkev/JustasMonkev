@@ -61,13 +61,11 @@ Plus a merged [Appium troubleshooting skill](https://github.com/appium/skills/pu
 | [npx-vet](https://www.npmjs.com/package/npx-vet) | ![npm](https://img.shields.io/npm/dm/npx-vet) | Inspect an npm package's trust evidence before `npm exec`/`npx` runs it |
 | [@justasmonkev/pkg-rust](https://www.npmjs.com/package/@justasmonkev/pkg-rust) | ![npm](https://img.shields.io/npm/dm/@justasmonkev/pkg-rust) | Rust port of `pkg` — bundle a Node.js project into a single executable |
 | [jm-playwright-chrome-ui](https://www.npmjs.com/package/jm-playwright-chrome-ui) | ![npm](https://img.shields.io/npm/dm/jm-playwright-chrome-ui) | Chrome extension UI helpers for Playwright |
-
 ---
 
 ## 🚀 Featured Projects
 
 - **[jm-playwright-har-test](https://github.com/JustasMonkev/jm-playwright-har-test)** — Record HAR files on failures or retries in Playwright Test and attach them to the report.
-- **[Playwright Trace AI site](https://github.com/JustasMonkev/playwright-trace-ai-site)** — Documentation and landing page for a local-first CLI that diagnoses failed Playwright traces using bounded evidence and optional AI enrichment.
 - **[mcp-accessibility-scanner](https://github.com/JustasMonkev/mcp-accessibility-scanner)** ⭐ — MCP server that lets AI assistants run WCAG accessibility audits on any webpage using Playwright and axe-core. My most popular package on npm.
 - **[playwright-leak-finder](https://github.com/JustasMonkev/playwright-leak-finder)** ([npm](https://www.npmjs.com/package/playwright-leak-finder)) — Your test passes alone but fails in the suite. This bisects the tests that ran before it (*à la* `git bisect`) until only the state-leaking culprit is left.
 - **[flaky-test-scorer](https://github.com/JustasMonkev/flaky-test-scorer)** ([npm](https://www.npmjs.com/package/flaky-test-scorer)) — Feed it your test-run history and it ranks which tests are actually flaky, scoring instability with deterministic evidence (no ML) and emitting agent-ready JSON. The CLI companion to my [flaky-test-scorer skill](https://github.com/JustasMonkev/flaky-test-scorer-ai-skill).
