@@ -1,0 +1,8 @@
+user: JustasMonkev
+cards: [summary, languages, contributions, weekly]
+style: classic
+include:
+  private: false
+  orgs: true
+summary:
+  ring: github

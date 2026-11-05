@@ -98,7 +98,25 @@ Plus a merged [Appium troubleshooting skill](https://github.com/appium/skills/pu
 
 ## 📊 GitHub Stats
 
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=JustasMonkev&show_icons=true&theme=tokyonight&hide_border=true" height="165" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JustasMonkev&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Top languages" />
+<!-- cool-readme:start -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="stats/summary-dark.svg">
+    <img src="stats/summary-light.svg" width="450" alt="Public GitHub stats">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="stats/languages-dark.svg">
+    <img src="stats/languages-light.svg" width="350" alt="Most used languages in public repositories">
+  </picture>
 </p>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="stats/contributions-dark.svg">
+    <img src="stats/contributions-light.svg" width="450" alt="Notable public contributions">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="stats/weekly-dark.svg">
+    <img src="stats/weekly-light.svg" width="350" alt="Publicly visible weekly activity">
+  </picture>
+</p>
+<!-- cool-readme:end -->
