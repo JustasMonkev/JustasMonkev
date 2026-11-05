@@ -1,0 +1,46 @@
+name: Update README cards
+
+on:
+  schedule:
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: readme-cards
+  cancel-in-progress: false
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out profile
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Check out reviewed generator
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          repository: pedrocatalao/github-cool-readme
+          ref: 4c943f262bb789611b7492da1a904b73d004326c
+          path: .cards-generator
+          persist-credentials: false
+      - name: Set up Node
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: 24
+      - name: Install locked runtime dependencies
+        run: npm ci --omit=dev --ignore-scripts --no-audit --no-fund --prefix .cards-generator
+      - name: Generate public profile cards
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node .cards-generator/src/cli.ts --config cool-readme.yml --out stats
+      - name: Commit changed cards
+        run: |
+          git add -- stats
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Update public README cards'
+          git push
