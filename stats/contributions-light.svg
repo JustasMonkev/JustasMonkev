@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="450" height="195" viewBox="0 0 450 195" fill="none" role="img" aria-labelledby="title desc">
 <title id="title">Notable contributions</title>
-<desc id="desc">openclaw/openclaw (394327 stars): 1 PR merged · Feb 2026. microsoft/playwright (99843 stars): 4 PRs merged · Oct 2026. ChromeDevTools/chrome-devtools-mcp (55092 stars): 1 PR merged · Dec 2025. SeleniumHQ/selenium (34580 stars): 1 PR merged · Mar 2021. promptfoo/promptfoo (27058 stars): 1 PR merged · Jul 2026. appium/appium (22208 stars): 1 PR merged · Sep 2026</desc>
+<desc id="desc">openclaw/openclaw (394403 stars): 1 PR merged · Feb 2026. microsoft/playwright (99958 stars): 4 PRs merged · Oct 2026. ChromeDevTools/chrome-devtools-mcp (55149 stars): 1 PR merged · Dec 2025. SeleniumHQ/selenium (34582 stars): 1 PR merged · Mar 2021. promptfoo/promptfoo (27086 stars): 1 PR merged · Jul 2026. appium/appium (22210 stars): 1 PR merged · Sep 2026</desc>
 <style>
   text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #1f2328; }
   .label { font-size: 14px; }
