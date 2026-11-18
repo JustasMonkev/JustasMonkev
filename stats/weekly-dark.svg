@@ -21,7 +21,7 @@
   .rise { transform-box: fill-box; transform-origin: bottom; animation: rise 0.7s cubic-bezier(.2,.7,.2,1) both; }
   @keyframes rise { from { transform: scaleY(0); } }
 </style>
-<rect x="0.5" y="0.5" width="349" height="194" rx="6" fill="none" stroke="none"/>
+<rect x="0.5" y="0.5" width="349" height="194" rx="6" fill="none" stroke="#3d444d"/>
 <text x="20" y="28" class="col">WEEKLY RHYTHM</text>
 <line x1="20" y1="166.5" x2="330" y2="166.5" stroke="#3d444d"/>
 <path class="rise" style="animation-delay: 200ms" d="M30.142857142857142 166V137.29985652797706Q30.142857142857142 133.29985652797706 34.14285714285714 133.29985652797706H50.14285714285714Q54.14285714285714 133.29985652797706 54.14285714285714 137.29985652797706V166Z" fill="#006d32"/><text x="42.14285714285714" y="184" text-anchor="middle" class="small secondary">Mon</text>

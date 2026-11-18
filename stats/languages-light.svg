@@ -19,7 +19,7 @@
   @keyframes pop { from { opacity: 0; transform: scale(0.6); } }
   @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
 </style>
-<rect x="0.5" y="0.5" width="349" height="205" rx="6" fill="none" stroke="none"/>
+<rect x="0.5" y="0.5" width="349" height="205" rx="6" fill="none" stroke="#d1d9e0"/>
 <text x="20" y="28" class="col">MOST USED LANGUAGES</text>
 <mask id="bar"><rect class="grow" x="20" y="48" width="310" height="10" rx="5" fill="#fff"/></mask>
 <g mask="url(#bar)"><rect x="20.00" y="48" width="163.62" height="10" fill="#3178c6"/><rect x="185.62" y="48" width="60.70" height="10" fill="#f1e05a"/><rect x="248.31" y="48" width="44.21" height="10" fill="#dea584"/><rect x="294.53" y="48" width="7.63" height="10" fill="#e34c26"/><rect x="304.16" y="48" width="5.86" height="10" fill="#00ADD8"/><rect x="312.02" y="48" width="4.89" height="10" fill="#b07219"/><rect x="318.91" y="48" width="11.09" height="10" fill="#8c959f"/></g>

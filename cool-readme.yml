@@ -4,5 +4,8 @@ style: classic
 include:
   private: false
   orgs: true
+theme:
+  border: true
 summary:
-  ring: github
+  title: Overview
+  ring: percent
