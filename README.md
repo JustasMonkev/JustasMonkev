@@ -107,21 +107,21 @@ The cards below refresh daily. [Last card update](https://github.com/JustasMonke
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="stats/summary-dark.svg">
-    <img src="stats/summary-light.svg" width="450" alt="Public GitHub stats">
+    <img src="stats/summary-light.svg" width="400" alt="Public GitHub stats">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="stats/languages-dark.svg">
-    <img src="stats/languages-light.svg" width="350" alt="Most used languages in public repositories">
+    <img src="stats/languages-light.svg" width="400" alt="Most used languages in public repositories">
   </picture>
 </p>
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="stats/contributions-dark.svg">
-    <img src="stats/contributions-light.svg" width="450" alt="Notable public contributions">
+    <img src="stats/contributions-light.svg" width="400" alt="Notable public contributions">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="stats/weekly-dark.svg">
-    <img src="stats/weekly-light.svg" width="350" alt="Publicly visible weekly activity">
+    <img src="stats/weekly-light.svg" width="400" alt="Publicly visible weekly activity">
   </picture>
 </p>
 <!-- cool-readme:end -->
