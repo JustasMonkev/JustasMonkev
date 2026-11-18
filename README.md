@@ -98,6 +98,11 @@ Plus a merged [Appium troubleshooting skill](https://github.com/appium/skills/pu
 
 ## 📊 GitHub Stats
 
+[![Open PRs](https://img.shields.io/github/issues-search?query=is%3Apublic%20is%3Apr%20author%3AJustasMonkev%20is%3Aopen&label=Open%20PRs&color=1f883d)](https://github.com/search?q=is%3Apublic%20is%3Apr%20author%3AJustasMonkev%20is%3Aopen&type=pullrequests)
+[![Merged PRs](https://img.shields.io/github/issues-search?query=is%3Apublic%20is%3Apr%20author%3AJustasMonkev%20is%3Amerged&label=Merged%20PRs&color=8250df)](https://github.com/search?q=is%3Apublic%20is%3Apr%20author%3AJustasMonkev%20is%3Amerged&type=pullrequests)
+
+The cards below refresh daily. [Last card update](https://github.com/JustasMonkev/JustasMonkev/commits/main/stats/) · [Refresh history](https://github.com/JustasMonkev/JustasMonkev/actions/workflows/cool-readme.yml)
+
 <!-- cool-readme:start -->
 <p align="center">
   <picture>
