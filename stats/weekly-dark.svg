@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="450" height="195" viewBox="0 0 450 195" fill="none" role="img" aria-labelledby="title desc">
 <title id="title">Weekly rhythm</title>
-<desc id="desc">Contributions per weekday over the last 12 months: Mon 407, Tue 377, Wed 469, Thu 387, Fri 367, Sat 530, Sun 1394.</desc>
+<desc id="desc">Contributions per weekday over the last 12 months: Mon 407, Tue 380, Wed 487, Thu 387, Fri 367, Sat 530, Sun 1394.</desc>
 <style>
   text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
   .strip { animation: strip 11.1s infinite; }
